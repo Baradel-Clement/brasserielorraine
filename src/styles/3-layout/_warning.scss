@@ -1,0 +1,16 @@
+.Warning {
+  background-color: $blackred;
+  width: 99vw;
+  margin-top:1%;
+  max-width: 100%;
+  @extend %flex-center-center;
+  padding: 0px 20px;
+}
+
+.Warning > p {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 26px;
+  margin: 40px 0px;
+}
