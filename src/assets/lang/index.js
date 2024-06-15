@@ -15,7 +15,7 @@ const translation = {
     player_film_src: 'https://www.youtube.com/embed/Ka1T8AYGNIM',
     player_iframe_src: 'https://www.vip-studio360.fr/galerie360/visites/vv-brasserie-lorraine/vv-brasserie-lorraine-c.html',
     mood_title: '#MOODINMARTINIQUE*',
-    mood_note: "*Brasserie Lorraine a pour ambition de célébrer ses 100 ans de savoir-faire local au travers de sa nouvelle étiquette collector, soulignant sa volonté de rester dans le \"Mood\" et demeurer la bière emblématique de la Martinique pour les 100 prochaines années. Lorraine est fabriquée et nourrie depuis 100 ans par les richesses et le savoir-faire d'une Martinique unique.",
+    mood_note: "Lorraine est fabriquée et nourrie depuis 100 ans par les richesses et le savoir-faire d'une Martinique unique.",
     adn_title: '<span className="ADN-title-font yellow w900">NOTRE</span> ADN',
     adn_videos_valeurs_src: 'https://www.youtube.com/embed/YtTYJ2iJssA?autoplay=1&amp;mute=1&playlist=YtTYJ2iJssA&amp;loop=1',
     adn_videos_film_src: 'https://www.youtube.com/embed/YtTYJ2iJssA?autoplay=1&amp;mute=1&playlist=odfe1oTW7rA&ab&amp;loop=1',

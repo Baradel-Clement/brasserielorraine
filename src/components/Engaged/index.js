@@ -18,7 +18,8 @@ const Engaged = () => {
         <img id="Engaged-Medal6" src="/assets/medaille-2021.png" alt="medaille d'or concours mondial de bruxelles 2021" />
       </div>
       <p id="Engaged-P3" className="Engaged-P Engaged-thirdP">{t('engage_P3')}</p>
-      <p id="Engaged-P4" className="Engaged-P Engaged-lastP">{t('engage_P4')}</p>
+      <p id="Engaged-P4" className="Engaged-P Engaged-thirdP">{t('engage_P4')}</p>
+      <p id="Engaged-P4" className="Engaged-P Engaged-lastP">Brasserie Lorraine est engagée dans le recyclage des drêches, qui sont un co-produit végétal issu de la fabrication de la bière. Il s’agit des résidus du brassage des céréales, c’est-à-dire du malt d’orge. Les drêches représentent une part significative des volumes en sortie de process. Riches en éléments nutritifs, les drêches de la Brasserie Lorraine sont valorisées en étant réutilisées dans l’alimentation animale. Les drêches constituent un bon apport protéique et sont intégrées à la ration des animaux dans une exploitation de bœufs à viande située au Diamant.</p>
     </div>
   );
 };

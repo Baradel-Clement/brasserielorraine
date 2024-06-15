@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 export const bieresData = [
   {
     image: '/assets/lorraine-blonde.png',

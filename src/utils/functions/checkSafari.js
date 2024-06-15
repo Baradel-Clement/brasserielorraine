@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 export const checkSafari = () => {
   const ua = navigator.userAgent.toLowerCase();
   if (ua.indexOf('safari') !== -1) {

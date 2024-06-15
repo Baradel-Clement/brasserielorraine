@@ -378,10 +378,10 @@ const App = ({ displayFilter, isInitLang, initLang }) => {
         <Mood />
         <ADN />
         <Bieres slides={bieresData} />
-        <FunZone />
+        {/* <FunZone /> */}
         <Histoires />
         <Engaged />
-        <Reuse />
+        {/* <Reuse /> */}
         <Social />
         <Warning />
       </Route>
