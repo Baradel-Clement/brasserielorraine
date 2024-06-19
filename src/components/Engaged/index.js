@@ -16,6 +16,7 @@ const Engaged = () => {
         <img id="Engaged-Medal4" src="/assets/medaille-2019.png" alt="medaille d'or concours mondial de bruxelles 2019" />
         <img id="Engaged-Medal5" src="/assets/medaille-2020.png" alt="medaille d'or concours mondial de bruxelles 2020" />
         <img id="Engaged-Medal6" src="/assets/medaille-2021.png" alt="medaille d'or concours mondial de bruxelles 2021" />
+        <img id="Engaged-Medal7" src="/assets/medaille-2024.png" alt="medaille d'or concours mondial de bruxelles 2024" />
       </div>
       <p id="Engaged-P3" className="Engaged-P Engaged-thirdP">{t('engage_P3')}</p>
       <p id="Engaged-P4" className="Engaged-P Engaged-thirdP">{t('engage_P4')}</p>
