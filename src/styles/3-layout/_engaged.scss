@@ -25,7 +25,6 @@
   margin: 50px auto;
   width: 100%;
   @extend %flex-between-center;
-  flex-wrap: wrap;
 }
 
 .Engaged-img-wrap > img {
@@ -41,13 +40,7 @@
     width: 100%;
   }
   .Engaged-img-wrap > img {
-    width: 112px;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .Engaged-img-wrap > img {
-    width: 106px;
+    width: 90px;
   }
 }
 
@@ -71,9 +64,10 @@
   
   .Engaged-img-wrap {
     margin: 25px auto;
+    flex-wrap: nowrap;
   }
 
   .Engaged-img-wrap > img {
-    width: 16%;
+    width: 13%;
   }
 }
