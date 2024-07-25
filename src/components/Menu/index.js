@@ -26,9 +26,9 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
         <div className="Menu-title">
           <a onClick={() => onClickNavLink('nos-bieres')} className="Menu-title-font w900">{t('menu_title_bieres')}</a>
         </div>
-        <div className="Menu-title">
+        {/* <div className="Menu-title">
           <a onClick={() => onClickNavLink('fun-zone')} className="Menu-title-font w900">{t('menu_title_funzone')}</a>
-        </div>
+        </div> */}
         <div className="Menu-title">
           <a onClick={() => onClickNavLink('notre-histoire')} className="Menu-title-font w900">{t('menu_title_histoire')}</a>
         </div>

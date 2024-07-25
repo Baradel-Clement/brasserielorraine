@@ -43,4 +43,15 @@ export const bieresData = [
     leplus: 'Apport de vitamines quotidien. Teneur garantie en vitamine B6',
     id: 4,
   },
+  {
+    image: '/assets/lorraine-gingembre.png',
+    name: 'Malta Lorraine Gingembre',
+    name_yellow: 'MALTA ',
+    name_white: 'GINGEMBRE',
+    profil: 'Boisson maltée sans alcool aromatisée au gingembre',
+    arome: "Subtiles notes acidulées et épicées apportées par l'extrait de gingembre sélectionné.",
+    robe: 'Brune aux reflets intenses. Mousse fine et vivifiante.',
+    leplus: "Apport de fraîcheur et d'énergie. Teneur garantie en vitamine B6.",
+    id: 5,
+  },
 ];

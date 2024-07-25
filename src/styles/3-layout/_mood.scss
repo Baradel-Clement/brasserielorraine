@@ -60,8 +60,19 @@
 }
 
 .ml16 .letter:nth-child(1),
+.ml16 .letter:nth-child(4),
+.ml16 .letter:nth-child(5),
 .ml16 .letter:nth-child(6),
-.ml16 .letter:nth-child(7) {
+.ml16 .letter:nth-child(7),
+.ml16 .letter:nth-child(10),
+.ml16 .letter:nth-child(11),
+.ml16 .letter:nth-child(12),
+.ml16 .letter:nth-child(13),
+.ml16 .letter:nth-child(14),
+.ml16 .letter:nth-child(15),
+.ml16 .letter:nth-child(16),
+.ml16 .letter:nth-child(17),
+.ml16 .letter:nth-child(18) {
   color: $yellow;
 }
 

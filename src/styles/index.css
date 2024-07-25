@@ -486,7 +486,7 @@ h2.Reuse-title-font {
     font-size: 136px;
   }
   .Filter-indication {
-    font-size: 25px;
+    font-size: 22px;
   }
   .Filter-submit-button {
     font-size: 30px;
@@ -620,7 +620,7 @@ h2.Reuse-title-font {
     font-size: 54px;
   }
   .Filter-indication {
-    font-size: 18px;
+    font-size: 16px;
   }
   .Filter-submit-button {
     font-size: 26px;
@@ -869,8 +869,19 @@ h2.Reuse-title-font {
 }
 
 .ml16 .letter:nth-child(1),
+.ml16 .letter:nth-child(4),
+.ml16 .letter:nth-child(5),
 .ml16 .letter:nth-child(6),
-.ml16 .letter:nth-child(7) {
+.ml16 .letter:nth-child(7),
+.ml16 .letter:nth-child(10),
+.ml16 .letter:nth-child(11),
+.ml16 .letter:nth-child(12),
+.ml16 .letter:nth-child(13),
+.ml16 .letter:nth-child(14),
+.ml16 .letter:nth-child(15),
+.ml16 .letter:nth-child(16),
+.ml16 .letter:nth-child(17),
+.ml16 .letter:nth-child(18) {
   color: #d6bc78;
 }
 
@@ -1626,6 +1637,10 @@ h2.Reuse-title-font {
 
 .Bieres-slide-cardImage.hover.biere4 {
   background: radial-gradient(50% 50% at 50% 50%, #ff4000 0%, rgba(170, 14, 23, 0) 50%);
+}
+
+.Bieres-slide-cardImage.hover.biere5 {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(45, 208, 61, 0.9) 0%, rgba(170, 14, 23, 0) 50%);
 }
 
 .Bieres-slide-imageWrap {
