@@ -381,7 +381,7 @@ const App = ({ displayFilter, isInitLang, initLang }) => {
         {/* <FunZone /> */}
         <Histoires />
         <Engaged />
-        {/* <Reuse /> */}
+        <Reuse />
         <Social />
         <Warning />
       </Route>

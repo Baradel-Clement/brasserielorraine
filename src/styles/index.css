@@ -2574,6 +2574,7 @@ h2.Reuse-title-font {
 
 .Reuse-title {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .Reuse-infographie-wrap {
@@ -2619,31 +2620,33 @@ h2.Reuse-title-font {
 }
 
 #infographieProduction {
-  top: 0px;
+  top: -38px;
   left: 50%;
-  width: 220px;
+  width: 180px;
 }
 
 #infographieLivraison {
-  top: 23%;
-  right: 0px;
+  top: 18%;
+  right: 51px;
+  width: 106px;
 }
 
 #infographieConsommation {
-  bottom: 20%;
-  right: 0px;
+  bottom: 15%;
+  right: 70px;
+  width: 100px;
 }
 
 #infographieCollecte {
-  bottom: 0px;
+  bottom: -40px;
   left: 50%;
   width: 116px;
 }
 
 #infographieVerification {
-  bottom: 20%;
+  bottom: 19%;
   left: 0px;
-  width: 170px;
+  width: 175px;
 }
 
 #infographieLavage {
@@ -2736,32 +2739,30 @@ h2.Reuse-title-font {
     width: 150px;
   }
   #infographieProduction {
-    top: 0px;
-    left: 50%;
-    width: 165px;
+    width: 145px;
+    top: -40px;
   }
   #infographieLivraison {
-    top: 23%;
-    right: 0px;
+    top: 19%;
+    width: 76px;
+    right: 38px;
   }
   #infographieConsommation {
-    bottom: 20%;
-    right: 0px;
+    bottom: 16%;
+    width: 72px;
+    right: 47px;
   }
   #infographieCollecte {
-    bottom: 0px;
-    left: 50%;
-    width: 87px;
+    width: 85px;
+    bottom: -35px;
   }
   #infographieVerification {
-    bottom: 20%;
-    left: 0px;
-    width: 127px;
+    bottom: 19%;
+    width: 142px;
   }
   #infographieLavage {
     top: 20%;
-    left: 0px;
-    width: 120px;
+    width: 130px;
   }
   #infographieTopRightTrait {
     top: 40px;
@@ -2847,24 +2848,30 @@ h2.Reuse-title-font {
             transform: scale(1.5);
   }
   .infographieIcon.activeIcon.centerIcon {
-    -webkit-transform: translate(-50%, 0%) scale(1.5);
-            transform: translate(-50%, 0%) scale(1.5);
+    -webkit-transform: translate(-55%, 0%) scale(1.5);
+            transform: translate(-55%, 0%) scale(1.5);
   }
   #infographieProduction {
-    width: 82px;
+    width: 75px;
+    top: -20px;
   }
   #infographieLivraison {
-    top: 23%;
+    top: 20%;
+    width: 35px;
+    right: 20px;
   }
   #infographieConsommation {
-    bottom: 20%;
+    bottom: 14%;
+    width: 38px;
+    right: 21px;
   }
   #infographieCollecte {
-    width: 43px;
+    width: 49px;
+    bottom: -27px;
   }
   #infographieVerification {
-    bottom: 20%;
-    width: 63px;
+    bottom: 17%;
+    width: 72px;
   }
   #infographieLavage {
     top: 20%;
