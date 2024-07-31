@@ -2,30 +2,30 @@ import React, { useEffect, useState } from 'react';
 import { Trans } from 'react-i18next';
 
 const Reuse = () => {
-  const [iconActive, setIconActive] = useState('production');
+  const [iconActive, setIconActive] = useState('graine');
   useEffect(() => {
     if (window.location.pathname === '/') {
-      setIconActive('production');
+      setIconActive('graine');
     }
     window.setTimeout(() => {
       if (window.location.pathname === '/') {
-        setIconActive('livraison');
+        setIconActive('concassage');
       }
       window.setTimeout(() => {
         if (window.location.pathname === '/') {
-          setIconActive('consommation');
+          setIconActive('brassage');
         }
         window.setTimeout(() => {
           if (window.location.pathname === '/') {
-            setIconActive('collecte');
+            setIconActive('filtre');
           }
           window.setTimeout(() => {
             if (window.location.pathname === '/') {
-              setIconActive('verification');
+              setIconActive('transport');
             }
             window.setTimeout(() => {
               if (window.location.pathname === '/') {
-                setIconActive('lavage');
+                setIconActive('ajout');
               }
             }, 2000);
           }, 2000);
@@ -34,27 +34,27 @@ const Reuse = () => {
     }, 2000);
     window.setInterval(() => {
       if (window.location.pathname === '/') {
-        setIconActive('production');
+        setIconActive('graine');
       }
       window.setTimeout(() => {
         if (window.location.pathname === '/') {
-          setIconActive('livraison');
+          setIconActive('concassage');
         }
         window.setTimeout(() => {
           if (window.location.pathname === '/') {
-            setIconActive('consommation');
+            setIconActive('brassage');
           }
           window.setTimeout(() => {
             if (window.location.pathname === '/') {
-              setIconActive('collecte');
+              setIconActive('filtre');
             }
             window.setTimeout(() => {
               if (window.location.pathname === '/') {
-                setIconActive('verification');
+                setIconActive('transport');
               }
               window.setTimeout(() => {
                 if (window.location.pathname === '/') {
-                  setIconActive('lavage');
+                  setIconActive('ajout');
                 }
               }, 2000);
             }, 2000);
@@ -69,19 +69,44 @@ const Reuse = () => {
       <h2 className="Reuse-title Reuse-title-font w900">
         <Trans components={{ span: <span />, br: <br /> }}>reuse_title</Trans>
       </h2>
+      <div className="Reuse-dreches-wrap">
+        <img id="drechesGraine" className={`${iconActive === 'graine' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'graine' ? 'graineColor' : 'graine'}.svg`} alt="graine" />
+        <img className="drechesArrow drechesArrowRight" src="/assets/dreches/arrowRight.svg" alt="drechesArrowRight" />
+        <img id="drechesConcassage" className={`${iconActive === 'concassage' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'concassage' ? 'concassageColor' : 'concassage'}.svg`} alt="concassage" />
+        <img className="drechesArrowBackLeft" src="/assets/dreches/arrowBackLeft.svg" alt="drechesArrowBackLeft" />
+        <img id="drechesBrassage" className={`${iconActive === 'brassage' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'brassage' ? 'brassageColor' : 'brassage'}.svg`} alt="brassage" />
+        <img className="drechesArrow drechesArrowLeft" src="/assets/dreches/arrowLeft.svg" alt="drechesArrowLeft" />
+        <img id="drechesFiltre" className={`${iconActive === 'filtre' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'filtre' ? 'filtreColor' : 'filtre'}.svg`} alt="filtre" />
+        <img className="drechesArrowBackRight" src="/assets/dreches/arrowBackRight.svg" alt="drechesArrowBackRight" />
+        <img id="drechesTransport" className={`${iconActive === 'transport' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'transport' ? 'transportColor' : 'transport'}.svg`} alt="transport" />
+        <img className="drechesArrow drechesArrowRight" src="/assets/dreches/arrowRight.svg" alt="drechesArrowRight" />
+        <img id="drechesAjout" className={`${iconActive === 'ajout' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'ajout' ? 'ajoutColor' : 'ajout'}.svg`} alt="ajout" />
+      </div>
+      <div className="Reuse-stats">
+        
+      </div>
+      <div className="Reuse-creation">
+      </div>
+    </div>
+  );
+  /* return (
+    <div className="Reuse">
+      <h2 className="Reuse-title Reuse-title-font w900">
+        <Trans components={{ span: <span />, br: <br /> }}>reuse_title</Trans>
+      </h2>
       <div className="Reuse-infographie-wrap">
         <img id="infographieCircleArrow" src="/assets/infographie/circleArrowColor.svg" alt="circleArrowColor" />
-        <img id="infographieProduction" className={`${iconActive === 'production' ? 'activeIcon infographieIcon centerIcon' : 'infographieIcon centerIcon'}`} src={`/assets/infographie/${iconActive === 'production' ? 'productionColor' : 'production'}.png`} alt="production" />
+        <img id="infographieProduction" className={`${iconActive === 'production' ? 'activeIcon infographieIcon centerIcon' : 'infographieIcon centerIcon'}`} src={`/assets/infographie/${iconActive === 'production' ? 'productionColor' : 'production'}.svg`} alt="production" />
         <img id="infographieTopRightTrait" className="infographieTrait" src="/assets/infographie/topRightTrait.svg" alt="infographieTopRightTrait" />
-        <img id="infographieLivraison" className={`${iconActive === 'livraison' ? 'activeIcon infographieIcon' : 'infographieIcon'}`} src={`/assets/infographie/${iconActive === 'livraison' ? 'livraisonColor' : 'livraison'}.png`} alt="livraison" />
+        <img id="infographieLivraison" className={`${iconActive === 'livraison' ? 'activeIcon infographieIcon' : 'infographieIcon'}`} src={`/assets/infographie/${iconActive === 'livraison' ? 'livraisonColor' : 'livraison'}.svg`} alt="livraison" />
         <img id="infographieRightTrait" className="infographieTrait" src="/assets/infographie/rightTrait.svg" alt="infographieRightTrait" />
-        <img id="infographieConsommation" className={`${iconActive === 'consommation' ? 'activeIcon infographieIcon' : 'infographieIcon'}`} src={`/assets/infographie/${iconActive === 'consommation' ? 'consommationColor' : 'consommation'}.png`} alt="consommation" />
+        <img id="infographieConsommation" className={`${iconActive === 'consommation' ? 'activeIcon infographieIcon' : 'infographieIcon'}`} src={`/assets/infographie/${iconActive === 'consommation' ? 'consommationColor' : 'consommation'}.svg`} alt="consommation" />
         <img id="infographieBottomRightTrait" className="infographieTrait" src="/assets/infographie/bottomRightTrait.svg" alt="infographieBottomRightTrait" />
-        <img id="infographieCollecte" className={`${iconActive === 'collecte' ? 'activeIcon infographieIcon centerIcon' : 'infographieIcon centerIcon'}`} src={`/assets/infographie/${iconActive === 'collecte' ? 'collecteColor' : 'collecte'}.png`} alt="collecte" />
+        <img id="infographieCollecte" className={`${iconActive === 'collecte' ? 'activeIcon infographieIcon centerIcon' : 'infographieIcon centerIcon'}`} src={`/assets/infographie/${iconActive === 'collecte' ? 'collecteColor' : 'collecte'}.svg`} alt="collecte" />
         <img id="infographieBottomLeftTrait" className="infographieTrait" src="/assets/infographie/bottomLeftTrait.svg" alt="infographieBottomLeftTrait" />
-        <img id="infographieVerification" className={`${iconActive === 'verification' ? 'activeIcon infographieIcon' : 'infographieIcon'}`} src={`/assets/infographie/${iconActive === 'verification' ? 'verificationColor' : 'verification'}.png`} alt="verification" />
+        <img id="infographieVerification" className={`${iconActive === 'verification' ? 'activeIcon infographieIcon' : 'infographieIcon'}`} src={`/assets/infographie/${iconActive === 'verification' ? 'verificationColor' : 'verification'}.svg`} alt="verification" />
         <img id="infographieLeftTrait" className="infographieTrait" src="/assets/infographie/leftTrait.svg" alt="infographieLeftTrait" />
-        <img id="infographieLavage" className={`${iconActive === 'lavage' ? 'activeIcon infographieIcon' : 'infographieIcon'}`} src={`/assets/infographie/${iconActive === 'lavage' ? 'lavageColor' : 'lavage'}.png`} alt="lavage" />
+        <img id="infographieLavage" className={`${iconActive === 'lavage' ? 'activeIcon infographieIcon' : 'infographieIcon'}`} src={`/assets/infographie/${iconActive === 'lavage' ? 'lavageColor' : 'lavage'}.svg`} alt="lavage" />
         <img id="infographieTopLeftTrait" className="infographieTrait" src="/assets/infographie/topLeftTrait.svg" alt="infographieTopLeftTrait" />
       </div>
       <div className="Reuse-stats">
@@ -96,7 +121,7 @@ const Reuse = () => {
         <p className="Reuse-creation-little"><Trans components={{ span: <span />, br: <br /> }}>reuse_creation</Trans></p>
       </div>
     </div>
-  );
+  ); */
 };
 
 export default Reuse;
