@@ -194,7 +194,7 @@ body {
 }
 
 @media screen and (min-width: 200px) {
-  .fixed-top-app, .Menu-wrap, .ADN, .ADN-videos, .ADN-video, .Player, .FunZone-left, #FunZoneForm, .Engaged-img-wrap, .Reuse-stats, .Social, .Social-socials, .Social-politics, .Filter-inputs {
+  .fixed-top-app, .Menu-wrap, .ADN, .ADN-videos, .ADN-video, .Player, .FunZone-left, #FunZoneForm, .Engaged-img-wrap, .Social, .Social-socials, .Social-politics, .Filter-inputs {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -205,7 +205,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  #root, .app, .fixed-top, .Mood, .Mood-iconScroll, .Menu-title, .Bieres-slide, .Bieres-slide-abstraite-text, .Reuse-infographie-wrap, .Warning, .Filter, .StaticPage-back, .Reuse-dreches-wrap {
+  #root, .app, .fixed-top, .Mood, .Mood-iconScroll, .Menu-title, .Bieres-slide, .Bieres-slide-abstraite-text, .Reuse-infographie-wrap, .Reuse-stats, .Warning, .Filter, .StaticPage-back, .Reuse-dreches-wrap {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2521,11 +2521,6 @@ h2.Reuse-title-font {
   width: 157px;
 }
 
-.Engaged-infographie {
-  width: 100%;
-  margin-top: 20px;
-}
-
 @media screen and (max-width: 1500px) {
   .Engaged {
     width: 700px;
@@ -2703,6 +2698,7 @@ h2.Reuse-title-font {
 .Reuse-stats {
   width: 100%;
   margin-bottom: 70px;
+  margin-top: 30px;
 }
 
 .Reuse-stat {

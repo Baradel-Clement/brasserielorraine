@@ -119,9 +119,10 @@
 }
 
 .Reuse-stats {
-  @extend %flex-between-center;
+  @extend %flex-center-center;
   width: 100%;
   margin-bottom: 70px;
+  margin-top: 30px;
 }
 
 .Reuse-stat {

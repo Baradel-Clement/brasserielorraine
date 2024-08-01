@@ -70,22 +70,25 @@ const Reuse = () => {
         <Trans components={{ span: <span />, br: <br /> }}>reuse_title</Trans>
       </h2>
       <div className="Reuse-dreches-wrap">
-        <img id="drechesGraine" className={`${iconActive === 'graine' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'graine' ? 'graineColor' : 'graine'}.svg`} alt="graine" />
+        <img id="drechesGraine" className={`${iconActive === 'graine' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'graine' ? 'graineColor' : 'graine'}.png`} alt="graine" />
         <img className="drechesArrow drechesArrowRight" src="/assets/dreches/arrowRight.svg" alt="drechesArrowRight" />
-        <img id="drechesConcassage" className={`${iconActive === 'concassage' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'concassage' ? 'concassageColor' : 'concassage'}.svg`} alt="concassage" />
+        <img id="drechesConcassage" className={`${iconActive === 'concassage' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'concassage' ? 'concassageColor' : 'concassage'}.png`} alt="concassage" />
         <img className="drechesArrowBackLeft" src="/assets/dreches/arrowBackLeft.svg" alt="drechesArrowBackLeft" />
-        <img id="drechesBrassage" className={`${iconActive === 'brassage' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'brassage' ? 'brassageColor' : 'brassage'}.svg`} alt="brassage" />
+        <img id="drechesBrassage" className={`${iconActive === 'brassage' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'brassage' ? 'brassageColor' : 'brassage'}.png`} alt="brassage" />
         <img className="drechesArrow drechesArrowLeft" src="/assets/dreches/arrowLeft.svg" alt="drechesArrowLeft" />
-        <img id="drechesFiltre" className={`${iconActive === 'filtre' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'filtre' ? 'filtreColor' : 'filtre'}.svg`} alt="filtre" />
+        <img id="drechesFiltre" className={`${iconActive === 'filtre' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'filtre' ? 'filtreColor' : 'filtre'}.png`} alt="filtre" />
         <img className="drechesArrowBackRight" src="/assets/dreches/arrowBackRight.svg" alt="drechesArrowBackRight" />
-        <img id="drechesTransport" className={`${iconActive === 'transport' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'transport' ? 'transportColor' : 'transport'}.svg`} alt="transport" />
+        <img id="drechesTransport" className={`${iconActive === 'transport' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'transport' ? 'transportColor' : 'transport'}.png`} alt="transport" />
         <img className="drechesArrow drechesArrowRight" src="/assets/dreches/arrowRight.svg" alt="drechesArrowRight" />
-        <img id="drechesAjout" className={`${iconActive === 'ajout' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'ajout' ? 'ajoutColor' : 'ajout'}.svg`} alt="ajout" />
+        <img id="drechesAjout" className={`${iconActive === 'ajout' ? 'activeIcon drechesIcon' : 'drechesIcon'}`} src={`/assets/dreches/${iconActive === 'ajout' ? 'ajoutColor' : 'ajout'}.png`} alt="ajout" />
       </div>
       <div className="Reuse-stats">
-        
-      </div>
-      <div className="Reuse-creation">
+        <div className="Reuse-stat">
+          <p className="Reuse-stat-little"><Trans components={{ span: <span /> }}>reuse_stat_left</Trans></p>
+        </div>
+        {/* <div className="Reuse-stat">
+          <p className="Reuse-stat-little"><Trans components={{ span: <span /> }}>reuse_stat_right</Trans></p>
+        </div> */}
       </div>
     </div>
   );
