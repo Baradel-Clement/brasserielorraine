@@ -182,24 +182,6 @@ const App = ({ displayFilter, isInitLang, initLang }) => {
           rotation: 360,
           repeat: -1,
         });
-        gsap.from('.Reuse-stat:first-child', {
-          scrollTrigger: {
-            trigger: '.Reuse-stats',
-            start: 'top 80%',
-          },
-          x: -200,
-          opacity: 0,
-          duration: 1,
-        });
-        gsap.from('.Reuse-stat:last-child', {
-          scrollTrigger: {
-            trigger: '.Reuse-stats',
-            start: 'top 80%',
-          },
-          x: 200,
-          opacity: 0,
-          duration: 1,
-        });
         gsap.from('.Reuse-creation', {
           scrollTrigger: {
             trigger: '.Reuse-creation',
@@ -337,24 +319,6 @@ const App = ({ displayFilter, isInitLang, initLang }) => {
           engagedMedalsCount -= 1;
           i += 1;
         }
-        gsap.from('.Reuse-stat:first-child', {
-          scrollTrigger: {
-            trigger: '.Reuse-stat:first-child',
-            start: '-200px 80%',
-          },
-          y: 200,
-          opacity: 0,
-          duration: 1,
-        });
-        gsap.from('.Reuse-stat:last-child', {
-          scrollTrigger: {
-            trigger: '.Reuse-stat:last-child',
-            start: '-200px 80%',
-          },
-          y: 200,
-          opacity: 0,
-          duration: 1,
-        });
         gsap.from('.Reuse-creation', {
           scrollTrigger: {
             trigger: '.Reuse-creation',

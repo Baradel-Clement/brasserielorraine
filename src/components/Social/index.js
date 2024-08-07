@@ -24,13 +24,6 @@ const Social = () => {
         <p className="w900"><Trans components={{ NavLink: <NavLink /> }}>social_cookies</Trans></p>
       </div>
       <Contact />
-      <div className="footer-logo">
-    <img src="/assets/feder-120.jpg" alt="Logo Feder" className="logo"/>
-    <img src="/assets/logo-etat-120.jpg" alt="Logo Etat" className="logo"/>
-    <img src="/assets/logoCTM-120.jpg" alt="Logo CTM" className="logo"/>
-    <p>Ce projet est cofinancé par l'Union européenne et la Collectivité Territoriale de Martinique.<br/>
-      L'Europe s'engage en Martinique dans le cadre FEDER (Fonds Européen de Développement Régional).</p>
-    </div> 
     </div>
   );
 };
