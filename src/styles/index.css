@@ -3024,10 +3024,12 @@ h2.Reuse-title-font {
 
 .Warning {
   background-color: #860101;
-  width: 99vw;
+  width: 100vw;
   margin-top: 1%;
   max-width: 100%;
-  padding: 0px 20px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 4;
 }
 
 .Warning > p {
@@ -3035,7 +3037,16 @@ h2.Reuse-title-font {
   letter-spacing: 2px;
   text-align: center;
   line-height: 26px;
-  margin: 40px 0px;
+  padding: 23px 0px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .Warning > p {
+    line-height: 16px;
+    padding: 17px 0px;
+    font-size: 11px;
+  }
 }
 
 .Filter {
