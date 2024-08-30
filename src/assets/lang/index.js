@@ -18,7 +18,7 @@ const translation = {
       "https://www.vip-studio360.fr/galerie360/visites/vv-brasserie-lorraine/vv-brasserie-lorraine-c.html",
     mood_title: "#LEGOÛTDELINSTANT*",
     mood_note:
-      "Brassée depuis 1922 en Martinique, la bière Lorraine fait la fierté de son île avec ses nombreuses médailles obtenues au concours international Monde Sélection. Fine, légère, et rafraîchissante, la bière Lorraine est adaptée à tous les instants de la vie en Martinique.",
+      "*Brassée depuis 1922 en Martinique, la bière Lorraine fait la fierté de son île avec ses nombreuses médailles obtenues au concours international Monde Sélection. Fine, légère, et rafraîchissante, la bière Lorraine est adaptée à tous les instants de la vie en Martinique.",
     adn_title: '<span className="ADN-title-font yellow w900">NOTRE</span> ADN',
     adn_videos_valeurs_src:
       "https://www.youtube.com/embed/YtTYJ2iJssA?autoplay=1&amp;mute=1&playlist=YtTYJ2iJssA&amp;loop=1",
