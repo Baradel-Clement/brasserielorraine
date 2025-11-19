@@ -29,7 +29,7 @@ const ADN = ({ setPlayerOpen }) => {
             <video controls autoPlay muted src="/assets/videoHistoire.mp4" />
           </div>
           <h3 className="ADN-video-title w900">
-            {t("adn_videos_valeurs_title")}
+            ok test
           </h3>
         </div>
 
@@ -52,7 +52,7 @@ const ADN = ({ setPlayerOpen }) => {
             <span className="ADN-video-player-square ADN-video-player-square-right" />
           </div>
           <h3 className="ADN-video-title w900">
-            {t("adn_videos_visite_title")}
+            ok test
           </h3>
         </div>
       </div>
