@@ -15,7 +15,7 @@ const ADN = ({ setPlayerOpen }) => {
             {/* <iframe src={t('adn_videos_film_src')} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /> */}
             <video controls autoPlay muted src="/assets/masterclass.mp4" />
           </div>
-          <h3 className="ADN-video-title w900">{t("adn_videos_film_title")}</h3>
+          <h3 className="ADN-video-title w900">ok test</h3>
         </div>
         <div className={`ADN-video videosFormat${t("adn_videos_format")}`}>
           <div className="ADN-video-iframeWrap">
