@@ -15,7 +15,7 @@ export const bieresData = [
     name: 'LORRAINE ICE',
     name_yellow: 'LORRAINE ',
     name_white: 'ICE',
-    profil: 'Bière blonde à 5,4°, sans amertume. Douce et légère.',
+    profil: 'Bière blonde à 4,6°, sans amertume. Douce et légère.',
     arome: 'Subtiles notes d’agrumes en fin de bouche, apportées par la variété de houblon séléctionée.',
     robe: 'Blond pâle aux reflets dorés. Mousse fine et délicate.',
     leplus: 'Bière sans amertume. EBU (European Bitterness Unit) = 10.',
