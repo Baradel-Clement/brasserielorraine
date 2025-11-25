@@ -57,8 +57,8 @@ export const bieresData = [
    {
     image: '/assets/VISUEL_3D_BOUTEILLE_MALTA_LORRAINE_CAFE_33CL_2024 (1).jpg',
     name: 'Malta Lorraine Café',
-    name_yellow: 'MALTA CAFE',
-    name_white: 'CAFE',
+    name_yellow: 'MALTA',
+    name_white: 'CAFÉ',
     profil: 'Boisson maltée sans alcool aromatisée au café',
     arome: "Notes de café fraîchement moulu, de malt torréfié, et de céréales grillées.",
     robe: 'Brune foncé, profonde, aux reflets acajou',
