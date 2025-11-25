@@ -16,9 +16,9 @@ export const bieresData = [
     name_yellow: 'LORRAINE ',
     name_white: 'ICE',
     profil: 'Bière blonde à 4,2°, sans amertume. Douce et légère.',
-    arome: 'Subtiles notes d’agrumes en fin de bouche, apportées par la variété de houblon séléctionée.',
+    arome: 'Des notes subtiles de céréales en fin de bouche apportées par un équilibre maîtrisé entre le malt et le houblon sélectionné',
     robe: 'Blond pâle aux reflets dorés. Mousse fine et délicate.',
-    leplus: 'Bière sans amertume. EBU (European Bitterness Unit) = 10.',
+    leplus: 'A déguster avec un quartier de citron pour encore plus de fraîcheur !',
     id: 2,
   },
   {
