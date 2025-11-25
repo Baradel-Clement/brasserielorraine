@@ -25,7 +25,7 @@ const translation = {
     adn_videos_film_src:
       "https://www.youtube.com/embed/YtTYJ2iJssA?autoplay=1&amp;mute=1&playlist=odfe1oTW7rA&ab&amp;loop=1",
     adn_videos_valeurs_title: "NOTRE HISTOIRE",
-    adn_videos_film_title: "MÉDAILLE D'OR 2024",
+    adn_videos_film_title: "MÉDAILLE D'OR 2025",
     adn_videos_visite_title: "VISITE VIRTUELLE",
     adn_videos_format: "3",
     bieres_carac1_title: "PROFIL",
