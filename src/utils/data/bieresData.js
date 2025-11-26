@@ -11,7 +11,7 @@ export const bieresData = [
     id: 1,
   },
   {
-    image: '/assets/3D_LORRAINE_ICE_BOUTEILLE (1).png',
+    image: '/assets/lorraine-ice2025.png',
     name: 'LORRAINE ICE',
     name_yellow: 'LORRAINE ',
     name_white: 'ICE',
@@ -55,7 +55,7 @@ export const bieresData = [
     id: 5,
   },
    {
-    image: '/assets/VISUEL_3D_BOUTEILLE_MALTA_LORRAINE_CAFE_33CL_2024 (1).jpg',
+    image: '/assets/malta-cafe.png',
     name: 'Malta Lorraine Café',
     name_yellow: 'MALTA',
     name_white: 'CAFÉ',
