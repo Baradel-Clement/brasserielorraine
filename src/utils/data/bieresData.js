@@ -57,7 +57,7 @@ export const bieresData = [
    {
     image: '/assets/malta-cafe.png',
     name: 'Malta Lorraine Café',
-    name_yellow: 'MALTA',
+    name_yellow: 'MALTA ',
     name_white: 'CAFÉ',
     profil: 'Boisson maltée sans alcool aromatisée au café',
     arome: "Notes de café fraîchement moulu, de malt torréfié, et de céréales grillées.",
