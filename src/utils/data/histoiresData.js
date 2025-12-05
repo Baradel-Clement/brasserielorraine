@@ -57,7 +57,7 @@ export const histoiresData = [
   },
   {
     id: 9,
-    urlImg: '/assets/histoire-9.jpg',
+    urlImg: '/assets/histoire-9.jpeg',
     alt: 'La rénovation de l’outil industriel sera finalisée en 2020',
     date: 2020,
     description: 'La rénovation de l’outil industriel sera finalisée en 2020. Une nouvelle ligne d’embouteillage sera installée, permettant de doubler la capacité de production tout en assurant des contrôles qualité renforcés.',
